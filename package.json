@@ -4,7 +4,7 @@
   "description": "A very neat and simple starter kit for an angular 4 MEAN app.",
   "main": "server.js",
   "repository": "https://github.com/giacomocerquone/angular4-mean-starter.git",
-  "author": "Giacomo Cerquone <cerquone96@hotmail.it> (http://giacomocerquone.com)",
+  "author": "Giacomo Cerquone <cerquone96@hotmail.it> (http://giacomocerquone.com), Yoichi Kawasaki <yoichi.kawasaki@outlook.com>",
   "license": "MIT",
   "scripts": {
     "start": "concurrently  \"nodemon server.js\" \"ng serve --progress=false --no-aot --proxy-config proxy.conf.json\"",
