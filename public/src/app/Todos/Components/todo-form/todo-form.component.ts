@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Router} from '@angular/router';
 
 // Import the DataService
 import { DataService } from './../../Services/data.service';
@@ -18,7 +19,7 @@ export class TodoFormComponent implements OnInit {
     text: ''
   };
 
-  constructor(private _dataService: DataService) {
+  constructor(private _dataService: DataService,private _router: Router) {
     this._dataService.getTodos()
       .subscribe(res => this.todos = res);
   }
@@ -28,6 +29,7 @@ export class TodoFormComponent implements OnInit {
       .subscribe(res => {
         console.log(res);
       });
+    this._router.navigate(['']);
   }
 
   ngOnInit() {

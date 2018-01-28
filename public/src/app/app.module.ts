@@ -15,12 +15,14 @@ import { AppRoutes } from './app.routes';
 import { MatInputModule, MatCardModule, MatButtonModule, MatToolbarModule, MatMenuModule, MatIconModule } from '@angular/material';
 import { TodoFormComponent } from './Todos/Components/todo-form/todo-form.component';
 import { TodoListComponent } from './Todos/Components/todo-list/todo-list.component';
+import { PageNotFoundComponent } from './Errors/Components/page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TodoFormComponent,
-    TodoListComponent
+    TodoListComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,

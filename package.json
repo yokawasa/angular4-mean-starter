@@ -8,6 +8,8 @@
   "license": "MIT",
   "scripts": {
     "start": "concurrently  \"nodemon server.js\" \"ng serve --progress=false --no-aot --proxy-config proxy.conf.json\"",
+    "server-start": "nodemon server.js",
+    "client-start": "ng serve --progress=false --no-aot --proxy-config proxy.conf.json",
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
