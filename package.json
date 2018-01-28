@@ -1,6 +1,6 @@
 {
   "name": "angular4-mean-starter",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "description": "A very neat and simple starter kit for an angular 4 MEAN app.",
   "main": "server.js",
   "repository": "https://github.com/giacomocerquone/angular4-mean-starter.git",
