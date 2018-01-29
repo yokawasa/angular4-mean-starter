@@ -7,9 +7,9 @@
   "author": "Giacomo Cerquone <cerquone96@hotmail.it> (http://giacomocerquone.com), Yoichi Kawasaki <yoichi.kawasaki@outlook.com>",
   "license": "MIT",
   "scripts": {
-    "start": "concurrently  \"nodemon server.js\" \"ng serve --progress=false --no-aot --proxy-config proxy.conf.json\"",
+    "start": "concurrently  \"nodemon server.js\" \"ng serve --progress=false --no-aot --disable-host-check --proxy-config proxy.conf.json\"",
     "server-start": "nodemon server.js",
-    "client-start": "ng serve --progress=false --no-aot --proxy-config proxy.conf.json",
+    "client-start": "ng serve --progress=false --no-aot --disable-host-check --proxy-config proxy.conf.json",
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
